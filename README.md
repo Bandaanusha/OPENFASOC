@@ -14,10 +14,8 @@ $ sudo make sky130hd_temp
 
 ![running](https://user-images.githubusercontent.com/62790565/199307591-0f9f24af-4b9f-4b07-b347-320d9a75bb34.jpeg)
 
-## Verilog Generation
+## Verilog Generation and Running Synthesis and APR
 ![Screenshot from 2022-10-31 15-19-27](https://user-images.githubusercontent.com/62790565/199308997-61e9690f-bc94-48df-a530-97cd34e2cfb1.png)
-
-## Running Synthesis and APR
 
 ## Floorplan Reports
 
