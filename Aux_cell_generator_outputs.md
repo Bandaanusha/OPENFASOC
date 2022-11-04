@@ -16,7 +16,11 @@
 - .cdl
 - .lib
   
-Looking into .cdl and .lib file
+#### Looking into .cdl and .lib file
 ### .cdl file
 - .cdl is Circuit Description Language is a kind of netlist, a description of an electronic circuit. It is automatically generated from a circuit schematic of aux-cell.
 - Layout vs Schematic (LVS) compares the design layout with the design schematic/netlist to tell if the design is functionally equivalent to schematic. For this, the connections are extracted from layout of the design by using a set of rules to convert the layout to connections. These connections are, then compared if they match with the connections of the netlist. If the connections match, the LVS is said to be clean. 
+- .cdl files are present in the folder (OpenFASOC/openfasoc/generators/design_name/blocks/sky130hs/spice/auxcell.cdl)  and it is modified so that a spice file is produced which is able to pass LVS. The code for this is present in https://github.com/idea-fasoc/OpenFASOC/blob/main/openfasoc/generators/temp-sense-gen/flow/util/openfasoc/cdl_parser.py 
+  
+ ### .lib file
+- .lib files (auxillary library files) are in the path  aux_lib = genDir + ""blocks/"" + platform and are used for verilog generation code for which is found in directory OpenFASOC/openfasoc/generators/tools 
