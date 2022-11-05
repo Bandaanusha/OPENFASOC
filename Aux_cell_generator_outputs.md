@@ -31,8 +31,8 @@
   ```
  % extract all
  % ext2spice hierarchy on
- %  ext2spice scale off
- %  ext2spice
+ % ext2spice scale off
+ % ext2spice
   ```
   - Comparing spice netlists
   Open terminal and type the folowing command to netgen tcl window
