@@ -29,18 +29,18 @@
  - Converting GDS to spice netlist
   open magic tcl window. Type the following commands to convert gds to spice netlist.
   ```
-  extract all
-  ext2spice hierarchy on
-  ext2spice scale off
-  ext2spice
+ % extract all
+ % ext2spice hierarchy on
+ %  ext2spice scale off
+ %  ext2spice
   ```
   - Comparing spice netlists
-  open netgen tcl window
+  Open terminal and type the folowing command to netgen tcl window
   ```
   $ netgen
   ```
   Type the following command to compare netlists
   ```
-  lvs buffer_xschem.spice buffer.spice
+ % lvs original.spice netlist_extracted_from _gds.spice
   ```
   
