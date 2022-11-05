@@ -24,3 +24,23 @@
   
  ### .lib file
 - .lib files (auxillary library files) are in the path  aux_lib = genDir + ""blocks/"" + platform and are used for verilog generation code for which is found in directory OpenFASOC/openfasoc/generators/tools 
+
+ ## LVS
+ - Converting GDS to spice netlist
+  open magic tcl window. Type the following commands to convert gds to spice netlist.
+  ```
+  extract all
+  ext2spice hierarchy on
+  ext2spice scale off
+  ext2spice
+  ```
+  - Comparing spice netlists
+  open netgen tcl window
+  ```
+  $ netgen
+  ```
+  Type the following command to compare netlists
+  ```
+  lvs buffer_xschem.spice buffer.spice
+  ```
+  
