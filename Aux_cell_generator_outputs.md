@@ -1,4 +1,4 @@
-## Previous statge : https://github.com/drvasanthi/AUX_CELL.git
+### Previous statge : https://github.com/drvasanthi/AUX_CELL.git
 
 # AUX-CELL GENERATION BLOCK DIAGRAM
 
@@ -50,4 +50,4 @@
   
   ![lvs_report](https://user-images.githubusercontent.com/62790565/200115230-c612df93-898d-4aef-9daf-2e845a4ce8a0.jpg)
   
-## Next Stage : https://github.com/mahati-basavaraju/openFasoc_Flow 
+### Next Stage : https://github.com/mahati-basavaraju/openFasoc_Flow 
