@@ -1,4 +1,14 @@
-# OPENFaSoc
-Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits The FASoC Program is focused on developing a complete system-on-chip (SoC) synthesis tool from user specification to GDSII with fully open-sourced tools.
+# AUX_CELL GENERATION
+Auxiliary cells, similar to standard cells in digital design, are one of the building blocks for the analog generators. They have simple analog functionality usually associated with the structure of the auxiliary cell.“AUXCELL_GEN” tool is developed to create a technology agnostic circuit design platform automating the process of Pareto optimization to meet the user constraints for each of the auxiliary cells and generate the required output views such as the CDL netlist, .lib files, GDS in STD cell format and LEF file.
 
-![openfasocflow](https://user-images.githubusercontent.com/62790565/206874564-651ae262-1d85-4109-97b5-ce09d96788f5.jpeg)
+# PLL generator
+A Phase locked loop(PLL) mainly consists of the following four blocks:-
+1. Phase Detector(PD)
+2. Charge Pump (CP)
+3. Voltage Controlled Oscillator (VCO)
+4. Frequency Divider (FD)
+
+# VCO generation
+Voltage Controlled Oscillator generates(VCO) a DC signal, the amplitude of which is proportional to the amplitude of output of Charge Pump Control Signal. Here the adjustment in the output frequency/phase of VCO is made until it shows equivalency with the input signal frequency/phase. The VCO is contructed using two current mirrors and a ring Oscillator which makes it a Analog block. The control signal is used as an input to these current source(mirrors) to control the current supply which in turn control the delay of the circuit. By controlling the delay we are basically controlling the frequency of the Oscillator which makes it frequency flexible.
+
+<img width="568" alt="vcocir" src="https://user-images.githubusercontent.com/62790565/206875662-10ea9781-dded-42ce-856c-cb0d80ff97af.png">
