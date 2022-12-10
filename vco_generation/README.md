@@ -1,5 +1,5 @@
 # AUX_CELL GENERATION
-Auxiliary cells, similar to standard cells in digital design, are one of the building blocks for the analog generators. They have simple analog functionality usually associated with the structure of the auxiliary cell.“AUXCELL_GEN” tool is developed to create a technology agnostic circuit design platform automating the process of Pareto optimization to meet the user constraints for each of the auxiliary cells and generate the required output views such as the CDL netlist, .lib files, GDS in STD cell format and LEF file.
+Auxiliary cells, similar to standard cells in digital design, are one of the building blocks for the analog generators. They have simple analog functionality usually associated with the structure of the auxiliary cell.“ALIGN” tool is used to generate to generate auxiliary cells.
 
 # PLL generator
 A Phase locked loop(PLL) mainly consists of the following four blocks:-
