@@ -4,6 +4,9 @@ Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthes
 
 ## Temperature Sensor Generator
 
+### Ciruit Diagram
+![tempsenecircuit](https://user-images.githubusercontent.com/62790565/206874951-2a5755c2-6991-4432-b7c3-6fa26992c6cc.png)
+
 ### Block Diagram of the flow
 ![openfasocflow](https://user-images.githubusercontent.com/62790565/206874564-651ae262-1d85-4109-97b5-ce09d96788f5.jpeg)
 
