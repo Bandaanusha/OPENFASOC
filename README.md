@@ -1,4 +1,12 @@
 # OPENFASOC
+
+Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits The FASoC Program is focused on developing a complete system-on-chip (SoC) synthesis tool from user specification to GDSII with fully open-sourced tools.
+
+## Temperature Sensor Generator
+
+### Block Diagram of the flow
+![openfasocflow](https://user-images.githubusercontent.com/62790565/206874564-651ae262-1d85-4109-97b5-ce09d96788f5.jpeg)
+
 ### Starting with the flow
 
 ![start](https://user-images.githubusercontent.com/62790565/199306202-85d3c727-d569-4177-a499-423793948835.jpeg)
