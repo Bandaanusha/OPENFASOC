@@ -15,3 +15,6 @@ Voltage Controlled Oscillator generates(VCO) a DC signal, the amplitude of which
 
 <img width="568" alt="vcocir" src="https://user-images.githubusercontent.com/62790565/206875662-10ea9781-dded-42ce-856c-cb0d80ff97af.png">
 
+## Generating .gds and .lef files for VCO
+.gds
+![Screenshot from 2022-12-11 10-52-34](https://user-images.githubusercontent.com/62790565/207322878-f4bc45fc-6aac-4c83-b865-ba3ce0301e19.png)
