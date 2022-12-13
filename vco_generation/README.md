@@ -48,6 +48,9 @@ Give the following command to view .gds file
 1.Pre-layout simulation is not matching with Post-layout simulation.
 2.ALIGN PDK are been used in the design, this encounters an issue at OpenFasoc.
 
+# Contributer
+- Banda Anusha
+
 # Acknowlegement
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 - Nickson Jose, VLSI Engineer, VSD Corp. Pvt. Ltd.
@@ -55,7 +58,7 @@ Give the following command to view .gds file
 - Nanditha Rao, Professor, IIIT-Bangalore.
 
 # Contact Information
-- Vasanthi D R, PhD Scholar, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
+- Banda Anusha, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 - Madhav Rao, Professor, IIIT-Bangalore. mr@iiitb.ac.in
 - Nanditha Rao, Professor, IIIT-Bangalore. nanditha.rao@iiitb.ac.in
