@@ -43,3 +43,24 @@ Give the following command to view .gds file
 ### KLayout view of VCO .gds file
 
 ![Screenshot from 2022-12-11 10-52-34](https://user-images.githubusercontent.com/62790565/207322878-f4bc45fc-6aac-4c83-b865-ba3ce0301e19.png)
+
+## FUTURE WORK
+1.Pre-layout simulation is not matching with Post-layout simulation.
+2.ALIGN PDK are been used in the design, this encounters an issue at OpenFasoc.
+
+# Acknowlegement
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Nickson Jose, VLSI Engineer, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Professor, IIIT-Bangalore.
+- Nanditha Rao, Professor, IIIT-Bangalore.
+
+# Contact Information
+- Vasanthi D R, PhD Scholar, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Madhav Rao, Professor, IIIT-Bangalore. mr@iiitb.ac.in
+- Nanditha Rao, Professor, IIIT-Bangalore. nanditha.rao@iiitb.ac.in
+
+
+
+
+
