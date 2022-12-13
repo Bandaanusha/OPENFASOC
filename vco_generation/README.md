@@ -58,11 +58,17 @@ Give the following command to view .gds file
 - Nanditha Rao, Professor, IIIT-Bangalore.
 
 # Contact Information
-- Banda Anusha, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
+- Banda Anusha, Postgraduate Student, International Institute of Information Technology, Bangalore Banda.Anusha@iiitb.ac.in
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 - Madhav Rao, Professor, IIIT-Bangalore. mr@iiitb.ac.in
 - Nanditha Rao, Professor, IIIT-Bangalore. nanditha.rao@iiitb.ac.in
 
+# References
+- https://fasoc.engin.umich.edu/
+- https://github.com/idea-fasoc/OpenFASOC/tree/main/openfasoc/generators/temp-sense-gen
+- https://align-analoglayout.github.io/ALIGN-public/notes/flow.html
+- https://github.com/drvasanthi/OpenFASOC.git
+- https://github.com/mahati-basavaraju/openFasoc_Flow
 
 
 
