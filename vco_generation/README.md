@@ -1,9 +1,8 @@
 # AUX_CELL GENERATION
 Auxiliary cells, similar to standard cells in digital design, are one of the building blocks for the analog generators. They have simple analog functionality usually associated with the structure of the auxiliary cell.“ALIGN” tool is used to .lef and .gds for auxiliary cells.
 
-## ALIGN tool
-ALIGN (Analog Layout, Intelligently Generated from Netlists) is an open source automatic layout generator for analog circuits jointly developed under the DARPA IDEA program by the University of Minnesota, Texas A&M University, and Intel Corporation.The goal of ALIGN is to automatically translate an unannotated (or partially annotated) SPICE netlist of an analog circuit to a GDSII layout.
-
+## ALIGN Tool
+ALIGN (Analog Layout, Intelligently Generated from Netlists) is an open source automatic layout generator for analog circuits jointly developed under the DARPA IDEA program by the University of Minnesota, Texas A&M University, and Intel Corporation.The goal of ALIGN is to automatically translate an unannotated (or partially annotated) SPICE netlist of an analog circuit to a GDSII layout. 
 ALIGN flow of generating .gds and .lef files from spice netlist
 
 <img width="285" alt="align" src="https://user-images.githubusercontent.com/62790565/206875850-9ba53dee-c17f-49bf-baa0-a672e5ccae83.png">
