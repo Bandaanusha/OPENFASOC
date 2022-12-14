@@ -8,15 +8,26 @@ ALIGN (Analog Layout, Intelligently Generated from Netlists) is an open source a
 <img width="285" alt="align" src="https://user-images.githubusercontent.com/62790565/206875850-9ba53dee-c17f-49bf-baa0-a672e5ccae83.png">
 
 ### ALIGN Installation steps
+**Prerequisites**
+- gcc >= 6.1.0 (For C++14 support)
+- python >= 3.7
+
+Type the following commands in terminal to install ALIGN
 ```
+export CC=/usr/bin/gcc
+export CXX=/usr/bin/g++
 git clone https://github.com/ALIGN-analoglayout/ALIGN-public
 cd ALIGN-public
+
+#Create a Python virtualenv
 python -m venv general
 source general/bin/activate
 python -m pip install pip --upgrade
+
+# Install ALIGN as a USER
 pip install -v .
 ```
-</b> Making ALIGN portable sky130 pdk
+Making ALIGN portable sky130 pdk
 ```
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ```
