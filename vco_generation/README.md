@@ -16,6 +16,11 @@ source general/bin/activate
 python -m pip install pip --upgrade
 pip install -v .
 ```
+</b> Making ALIGN portable sky130 pdk
+```
+git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
+```
+move SKY130_PDK folder from ALIGN-pdk-sky130 to pdks folder of cloned ALIGN-public directory.
 
 ## PLL generator
 A Phase locked loop(PLL) mainly consists of the following four blocks:-
